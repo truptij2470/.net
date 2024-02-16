@@ -1,0 +1,10 @@
+1) CREATE TABLE [dbo].[Books] (
+    [bookid]     INT             IDENTITY (1, 1) NOT NULL,
+    [bookname]   VARCHAR (50)    NOT NULL,
+    [bookauthor] VARCHAR (50)    NOT NULL,
+    [bookprice]  DECIMAL (18, 2) NOT NULL,
+    PRIMARY KEY CLUSTERED ([bookid] ASC)
+);
+
+
+Note :- if you chande name of any post method than must remove [ValidateAntiForgeryToken]
